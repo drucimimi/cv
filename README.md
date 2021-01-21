@@ -51,6 +51,8 @@ HTML5/CSS3
 
 [JQuery](https://jquery.com/)
 
+AJAX
+
 [Bootstrap](https://getbootstrap.com/)
 
 PHP (formulaire de contact)
