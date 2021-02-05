@@ -59,9 +59,9 @@ PHP (formulaire de contact)
 
 
 ## Versions
-Dernière version stable : 1.0.3
+Dernière version stable : 1.0.4
 
-Dernière version : 1.0.3
+Dernière version : 1.0.4
 
 Liste des versions : [Cliquer pour afficher](https://github.com/drucimimi/cv/tags)
 
