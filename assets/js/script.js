@@ -1,4 +1,5 @@
 $(function(){
+  // naviguer sur la page via le scroll
   $(".navbar a, footer a").on("click", function(event){
     event.preventDefault();
     var hash = this.hash;
@@ -6,9 +7,11 @@ $(function(){
     $("body, html").animate({scrollTop: $(hash).offset().top} , 900 , function(){window.location.hash = hash;});
   });
 
+  // afficher l'année en cours dans le footer
   var date = new Date();
   $("footer h5 span").append(date.getFullYear());
 
+  // valider le formulaire
   $('#contact-form').submit(function(e){
     e.preventDefault();
     $('.comments').empty();

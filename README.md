@@ -47,21 +47,25 @@ Pour lancer le projet en local, lancer le fichier index.html avec votre navigate
 ## Fabriqué avec
 [Atom](https://atom.io/) - éditeur de texte
 
-HTML5/CSS3
+HTML5/CSS3 - structure et mise en forme du site
 
-[JQuery](https://jquery.com/)
+[JQuery](https://jquery.com/) - animation du site
 
-AJAX
+AJAX - pas de rafraîchissement de la page après la validation du formulaire
 
-[Bootstrap](https://getbootstrap.com/)
+[Bootstrap](https://getbootstrap.com/) - mise en forme rapide et complémentaire du site
 
-PHP (formulaire de contact)
+[Popper.js](https://github.com/popperjs/popper-core/tree/v1.16.0) - activation de la fonctionnalité du scroll
+
+[FontAwesome](https://fontawesome.com/download) - utilisation des glyphicons
+
+PHP - formulaire de contact
 
 
 ## Versions
-Dernière version stable : 1.0.4
+Dernière version stable : 1.0.5
 
-Dernière version : 1.0.4
+Dernière version : 1.0.5
 
 Liste des versions : [Cliquer pour afficher](https://github.com/drucimimi/cv/tags)
 

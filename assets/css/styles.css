@@ -30,7 +30,6 @@ section{
 section .heading{
   text-align: center;
   padding-bottom: 40px;
-  /*margin-top: 10px;*/
 }
 
 section .heading h2{
@@ -314,13 +313,13 @@ footer{
   background: #333;
   padding: 20px 0 40px;
 }
-footer img{
+footer .fas{
   font-size: 25px;
   margin: 20px;
   color: #177e80;
   height: 30px;
 }
-footer img:hover{
+footer .fas:hover{
   font-size: 27px;
 }
 footer h5{
