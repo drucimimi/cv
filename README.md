@@ -61,11 +61,13 @@ AJAX - pas de rafraîchissement de la page après la validation du formulaire
 
 PHP - formulaire de contact
 
+[Sass](https://sass-lang.com/install) - préprocesseur CSS
+
 
 ## Versions
-Dernière version stable : 1.0.5
+Dernière version stable : 1.1
 
-Dernière version : 1.0.5
+Dernière version : 1.1
 
 Liste des versions : [Cliquer pour afficher](https://github.com/drucimimi/cv/tags)
 
