@@ -1,0 +1,15 @@
+// ==========================================================================
+// Glyphicons Bootstrap style
+// ==========================================================================
+.c-education-block .fas{
+    font-size: rem(35);
+}
+footer .fas{
+    font-size: rem(25);
+    margin: 20px;
+    color: $bgcolor-primary;
+    height: 30px;
+}
+footer .fas:hover{
+    font-size: rem(27);
+}

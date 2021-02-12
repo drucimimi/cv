@@ -1,0 +1,15 @@
+// ==========================================================================
+// Components - Divider
+// ==========================================================================
+.c-green-divider{
+    background-color: $bgcolor-primary;
+    @include divider;
+}
+
+.c-white-divider{
+    background-color: $bgcolor-secondary;
+    @include divider;
+}
+.c-education-block .c-green-divider{
+    margin-bottom: 20px;
+}

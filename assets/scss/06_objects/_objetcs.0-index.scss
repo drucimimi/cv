@@ -1,0 +1,21 @@
+// ==========================================================================
+// Objects
+// ==========================================================================
+
+/**
+ * The object layer class-based selectors defines undecorated elements with agnostic names.
+ * It is more relative to structure/position/behaviour of elements within the template (wrappers, grid, list, etc.)
+ * than to their style (which is defined in 07_components).
+ *
+ * Classes in this layer are prefixed with `o-`.
+ */
+
+/**
+ * CONTENTS
+ *
+ * OBJECTS
+ * Profile picture...............Define profile picture styles.
+ * Timelne...............Define timeline styles.
+ */
+@import "objects.profile-picture";
+@import "objects.timeline";

@@ -1,0 +1,28 @@
+// ==========================================================================
+// Objects timeline
+// ==========================================================================
+.o-timeline{
+    padding: 30px 10px;
+    position: relative;
+  }
+.o-timeline:before{
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 5px;
+  background: #333;
+  left: 50%;
+  margin-left: -2.5px;
+}
+.o-timeline > li{
+  margin-bottom: 20px;
+  position: relative;
+}
+.o-timeline > li:after{
+  clear: both;
+}
+.o-timeline > li:before, .o-timeline > li:after{
+  content: " ";
+  display: table;
+}

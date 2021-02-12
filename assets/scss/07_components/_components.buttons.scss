@@ -1,0 +1,20 @@
+// ==========================================================================
+// Components - Buttons
+// ==========================================================================
+.c-button1{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $bgcolor-secondary;
+    border: 1px solid $bgcolor-secondary;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+    background: transparent;
+}
+.c-button1:hover{
+    background: $bgcolor-secondary;
+    color: $bgcolor-primary;
+    text-decoration: none;
+}

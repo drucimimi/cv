@@ -1,0 +1,31 @@
+// ==========================================================================
+// Components
+// ==========================================================================
+
+/**
+ * This is where majority of the work takes place. All components are very encapsulated
+ * and of course try to avoid any dependencies between components.
+ *
+ * Classes in this layer are prefix with `c-`.
+ */
+
+/**
+ * CONTENTS
+ *
+ * COMPONENTS
+ * Buttons...............Define buttons styles.
+ * Divider...............Define divider styles.
+ * Headings..............Define headings styles.
+ * Sections.................Define different sections styles on the page.
+ * Timeline.................Define timeline styles.
+ * Education section.................Define education section styles.
+ * Contact form............Define contact section styles.
+ * 
+ */
+@import "components.buttons";
+@import "components.divider";
+@import "components.headings";
+@import "components.sections";
+@import "components.timeline";
+@import "components.education-section";
+@import "components.contact-form";

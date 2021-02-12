@@ -1,0 +1,19 @@
+// ==========================================================================
+// Settings
+// ==========================================================================
+
+/**
+ * The settings-layer contains all our global Design System variables,
+ * so it defines colors, spacings, font-sizes, grids settings and many more.
+ * It’s important not to output any CSS in these layers.
+ */
+
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Colors...............Manage project's color palette.
+ * Fonts................Set up project's font variables.
+ */
+@import "settings.colors";
+@import "settings.fonts";

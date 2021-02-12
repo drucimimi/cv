@@ -1,0 +1,17 @@
+// ==========================================================================
+// Navbar Boostrap style
+// ==========================================================================
+.navbar{
+  background-color: $bgcolor-primary;
+  font-size: rem(12);
+  border-bottom: 1px solid $bgcolor-secondary;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.nav-pills .nav-link{
+  text-align: center;
+}
+.navbar-toggler{
+  border-style: none;
+}

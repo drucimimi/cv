@@ -1,0 +1,13 @@
+// ==========================================================================
+// Utilities - Navbar
+// ==========================================================================
+.nav-pills .nav-link.active, .nav-pills .nav-link:hover{
+    color: $bgcolor-primary !important;
+    background-color: $bgcolor-secondary !important;
+}
+.nav-pills .nav-link{
+    color: $bgcolor-secondary !important;
+}
+.navbar-toggler{
+    color: $bgcolor-secondary !important;
+}

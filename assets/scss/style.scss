@@ -1,0 +1,27 @@
+// ==========================================================================
+// Style of the website
+// ==========================================================================
+
+/* Settings layer */
+@import "01_settings/settings.0-index";
+
+/* Tools layer */
+@import "02_tools/tools.0-index";
+
+/* Elements layer */
+@import "04_elements/elements.0-index";
+
+// ==========================================================================
+// Vendors
+// ==========================================================================
+// Classes relating to external libraries we want to override (ex. : Bootstrap, slick, recaptcha...).
+@import "05_vendors/vendors.0-index";
+
+/* Objects index */
+@import "06_objects/objetcs.0-index";
+
+/* Components index */
+@import "07_components/components.0-index";
+
+/* Utilities index */
+@import "08_utilities/utilities.0-index";

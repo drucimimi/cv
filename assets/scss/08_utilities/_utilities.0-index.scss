@@ -1,0 +1,22 @@
+// ==========================================================================
+// Utilities
+// ==========================================================================
+
+/**
+ * Utilities and helper classes with ability to override
+ * anything which goes before in the triangle of ITCSS.
+ * The utilities are made immutable with `!important`.
+ * It’s important not to output any CSS in this layers.
+ *
+ * Classes in this layer are prefix with `u-`.
+ */
+
+/**
+ * CONTENTS
+ *
+ * UTILITIES
+ * Navbar.................navbar utilities
+ * Forms................forms utilities
+ */
+@import "utilities.navbar";
+@import "utilities.forms";

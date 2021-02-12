@@ -1,0 +1,23 @@
+{
+  "name": "cv",
+  "version": "1.0.6",
+  "description": "Mon CV en ligne",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./assets/scss/style.scss:./assets/css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drucimimi/cv.git"
+  },
+  "author": "Drucilla DEROCHE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drucimimi/cv/issues"
+  },
+  "homepage": "https://github.com/drucimimi/cv#readme"
+}

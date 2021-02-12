@@ -1,0 +1,16 @@
+// =============================================================================
+// Font Face
+// =============================================================================
+
+// Font name: Lato
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato/Lato-Regular.eot');
+    src: local('Lato Regular'), local('Lato-Regular'),
+        url('../fonts/lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/lato/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/lato/Lato-Regular.woff') format('woff'),
+        url('../fonts/lato/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

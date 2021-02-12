@@ -1,0 +1,17 @@
+// ==========================================================================
+// Elements - Images
+// ==========================================================================
+img{
+    max-width: 100%;
+    height: auto;
+}
+#portfolio img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+#portfolio img:hover{
+    filter: none;
+    -webkit-filter: none;
+}

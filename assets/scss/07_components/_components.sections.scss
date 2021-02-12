@@ -1,0 +1,20 @@
+// ==========================================================================
+// Components - Sections
+// ==========================================================================
+#about{
+    padding-top: 50px;
+    background-color: $bgcolor-primary;
+}
+#skills, #education /*, #recommandations*/{
+    background-color: $bgcolor-secondary;
+}
+#experience{
+    background: $bgcolor-primary;
+}
+#portfolio, #contact{
+    background: $bgcolor-primary;
+}
+#contact-form{
+    font-size: rem(20);
+    color: $bgcolor-secondary;
+}

@@ -1,0 +1,13 @@
+// ==========================================================================
+// Carousel Boostrap style
+// ==========================================================================
+.fas.fa-chevron-left, .fas.fa-chevron-right{
+    background-image: none;
+    color: $bgcolor-primary;
+}
+.carousel-indicators{
+  bottom: 0px;
+}
+#myCarousel .carousel-item{
+  padding: 40px 30px;
+}
