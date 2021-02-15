@@ -1,6 +1,6 @@
 {
   "name": "cv",
-  "version": "1.0.6",
+  "version": "1.1.1",
   "description": "Mon CV en ligne",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch ./assets/scss/style.scss:./assets/css/style.css --style compressed"
+    "sass": "sass --watch ./assets/scss/style.scss:./assets/public/css/style.css --style compressed",
+    "prefix": "postcss ./assets/public/css/style.css --use autoprefixer -d ./assets/public/css/prefixed/"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/drucimimi/cv/issues"
   },
-  "homepage": "https://github.com/drucimimi/cv#readme"
+  "homepage": "https://github.com/drucimimi/cv#readme",
+  "browserslist" : "last 4 versions"
 }

@@ -63,11 +63,17 @@ PHP - formulaire de contact
 
 [Sass](https://sass-lang.com/install) - préprocesseur CSS
 
+[NPM](https://nodejs.org/en/download/)
+
+[Autoprefixer](https://preview.npmjs.com/package/autoprefixer/v/9.7.1)
+
+[PostCSS](https://www.npmjs.com/package/postcss-cli)
+
 
 ## Versions
-Dernière version stable : 1.1
+Dernière version stable : 1.1.1
 
-Dernière version : 1.1
+Dernière version : 1.1.1
 
 Liste des versions : [Cliquer pour afficher](https://github.com/drucimimi/cv/tags)
 
