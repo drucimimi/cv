@@ -14,7 +14,7 @@ $(function(){
   // valider le formulaire
   $('#contact-form').submit(function(e){
     e.preventDefault();
-    $('.comments').empty();
+    $('.c-comments').empty();
     const postdata = $('#contact-form').serialize(); //récupérer et stocker les infos du formulaire
     $.ajax({
       type: 'POST',
@@ -23,14 +23,14 @@ $(function(){
       dataType: 'json',
       success: function(result){
           if(result.isSuccess){
-            $("#contact-form").append("<p class='thank-you'>Votre message a bien été envoyé. Merci de m'avoir contacté :)</p>");
+            $("#contact-form").append("<p class='c-thank-you'>Votre message a bien été envoyé. Merci de m'avoir contacté :)</p>");
             $("#contact-form")[0].reset();
           } else{
-            $("#firstname + .comments").html(result.firstnameError);
-            $("#name + .comments").html(result.nameError);
-            $("#email + .comments").html(result.emailError);
-            $("#phone + .comments").html(result.phoneError);
-            $("#message + .comments").html(result.messageError);
+            $("#firstname + .c-comments").html(result.firstnameError);
+            $("#name + .c-comments").html(result.nameError);
+            $("#email + .c-comments").html(result.emailError);
+            $("#phone + .c-comments").html(result.phoneError);
+            $("#message + .c-comments").html(result.messageError);
           }
       }
 
