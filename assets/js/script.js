@@ -2,20 +2,20 @@ $(function(){
   // naviguer sur la page via le scroll
   $(".navbar a, footer a").on("click", function(event){
     event.preventDefault();
-    var hash = this.hash;
+    let hash = this.hash;
 
     $("body, html").animate({scrollTop: $(hash).offset().top} , 900 , function(){window.location.hash = hash;});
   });
 
   // afficher l'année en cours dans le footer
-  var date = new Date();
+  let date = new Date();
   $("footer h5 span").append(date.getFullYear());
 
   // valider le formulaire
   $('#contact-form').submit(function(e){
     e.preventDefault();
     $('.comments').empty();
-    var postdata = $('#contact-form').serialize(); //récupérer et stocker les infos du formulaire
+    const postdata = $('#contact-form').serialize(); //récupérer et stocker les infos du formulaire
     $.ajax({
       type: 'POST',
       url: 'assets/php/contact.php',
