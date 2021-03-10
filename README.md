@@ -71,15 +71,9 @@ PHP - formulaire de contact
 
 
 ## Versions
-<<<<<<< HEAD
-Dernière version stable : 1.1.3
+Dernière version stable : 1.1.4
 
-Dernière version : 1.1.3
-=======
-Dernière version stable : 1.1.2
-
-Dernière version : 1.1.2
->>>>>>> 51bf54debfce123429ff5c127a0a061e5b855dbc
+Dernière version : 1.1.4
 
 Liste des versions : [Cliquer pour afficher](https://github.com/drucimimi/cv/tags)
 
