@@ -1,7 +1,7 @@
 $(function(){
   //Boîte de dialogue interactive
   let location = prompt('Dans quelle ville êtes-vous situé ?');
-  while (location === ""){
+  while (location === "" || location === null){
     location = prompt('Entrez le nom de votre ville: ');
   }
   if (location === "Nantes"){
@@ -21,7 +21,7 @@ $(function(){
   }
   else{
     $("#about .c-heading .c-button1").attr('href', 'docs/CV Drucilla DEROCHE.pdf');
-    $("#education .col-md-4:first").remove();
+    $("#education .col-md-3:first").remove();
   }
 
   // naviguer sur la page via le scroll

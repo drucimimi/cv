@@ -42,10 +42,11 @@ section .c-heading h2{
 }
 .c-education-block h4{
     color: $bgcolor-primary;
-    font-size: rem(20);
+    font-size: rem(14);
 }
 .c-education-block h5{
     margin-bottom: 20px;
+    font-size: rem(13);
 }
 #portfolio .c-heading h2{
     color: $bgcolor-secondary;
