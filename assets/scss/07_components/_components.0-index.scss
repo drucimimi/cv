@@ -9,6 +9,7 @@
  * Classes in this layer are prefix with `c-`.
  */
 
+
 /**
  * CONTENTS
  *
@@ -20,8 +21,10 @@
  * Timeline.................Define timeline styles.
  * Education section.................Define education section styles.
  * Contact form............Define contact section styles.
+ * Social menu..............Define social menu styles
  * 
  */
+
 @import "components.buttons";
 @import "components.divider";
 @import "components.headings";
@@ -29,3 +32,4 @@
 @import "components.timeline";
 @import "components.education-section";
 @import "components.contact-form";
+@import "components.social-menu";
