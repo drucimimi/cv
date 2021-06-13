@@ -1,67 +1,82 @@
 // ==========================================================================
 // Elements - Headings
 // ==========================================================================
-h1,h2,h3,h4,h5,h6{
-    font-weight: bold;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
 }
-section .c-heading h2{
-    text-transform: uppercase;;
+
+section .c-heading h2 {
+  text-transform: uppercase;
+  ;
 }
-#about .c-heading h1{
-    color: $bgcolor-secondary;
-    text-transform: uppercase;
-    margin-top: 20px;
+
+#about .c-heading h1 {
+  color: $bgcolor-secondary;
+  text-transform: uppercase;
+  margin-top: 20px;
 }
-#about .c-heading h3, #about .c-heading h4{
-    color: #000;
+
+#about .c-heading h3,
+#about .c-heading h4 {
+  color: #000;
 }
-#skills h5{
-    margin-top: 5px;
-    text-shadow: 1px 1px 1px #000;
+
+#skills h5 {
+  margin-top: 5px;
+  text-shadow: 1px 1px 1px #000;
 }
-#skills .c-heading h2{
-    color: $bgcolor-primary;
+
+#skills .c-heading h2 {
+  color: $bgcolor-primary;
 }
-#experience .c-heading h2{
-    color: $bgcolor-secondary;
+
+#experience .c-heading h2 {
+  color: $bgcolor-secondary;
 }
-.c-timeline-heading h3{
-    margin-top: 5px;
-    font-size: rem(20);
+
+.c-timeline-heading h3 {
+  margin-top: 5px;
+  font-size: rem(20);
 }
-.c-timeline-heading h4{
-    color: $bgcolor-primary;
+
+.c-timeline-heading h4 {
+  color: $bgcolor-primary;
 }
-#education .c-heading h2{
-    color: $bgcolor-primary;
+
+#education .c-heading h2 {
+  color: $bgcolor-primary;
 }
-.c-education-block h6{
-    color: #888;
-    font-size: rem(15);
-    margin-bottom: 15px;
+
+.c-education-block h6 {
+  color: #888;
+  font-size: rem(15);
+  margin-bottom: 15px;
 }
-.c-education-block h4{
-    color: $bgcolor-primary;
-    font-size: rem(14);
+
+.c-education-block h4 {
+  color: $bgcolor-primary;
+  font-size: rem(14);
 }
-.c-education-block h5{
-    margin-bottom: 20px;
-    font-size: rem(13);
+
+.c-education-block h5 {
+  margin-bottom: 20px;
+  font-size: rem(13);
 }
-#portfolio .c-heading h2{
-    color: $bgcolor-secondary;
+
+#portfolio .c-heading h2 {
+  color: $bgcolor-secondary;
 }
-/*#recommandations .c-heading h2{
-    color: $bgcolor-primary;
+
+#contact .c-heading h2 {
+  color: $bgcolor-secondary;
 }
-#myCarousel .carousel-item h3{
-    color: $bgcolor-primary;
-    font-style: italic;
-}*/
-#contact .c-heading h2{
-    color: $bgcolor-secondary;
-}
-footer h5{
-    color: $bgcolor-secondary;
-    font-weight: normal;
+
+footer h5 {
+  color: $bgcolor-secondary;
+  font-weight: normal;
 }

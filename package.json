@@ -1,6 +1,6 @@
 {
   "name": "cv",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Mon CV en ligne",
   "main": "index.js",
   "directories": {

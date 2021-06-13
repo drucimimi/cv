@@ -7,18 +7,18 @@
  * These are classes only. The variables to be overrided must remain in `01_settings`.
  */
 
+
 /**
  * CONTENTS
  *
  * VENDORS (example)
  * Navbar................ Bootstrap navbar' style override.
  * Grid................ Bootstrap grid system's style override.
- * Carousel................ Bootstrap carousel's style override.
  * Forms................ Bootstrap forms' style override.
  * Glyphicons................ Bootstrap glypjicons' style override.
  */
+
 @import "vendors.bootstrap-navbar";
 @import "vendors.bootstrap-grid";
-//@import "vendors.bootstrap-carousel";
 @import "vendors.bootstrap-forms";
 @import "vendors.bootstrap-glyphicons";

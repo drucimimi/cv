@@ -7,16 +7,18 @@
  * These come with default styling from the browser so we can redefine them here.
  */
 
+
 /**
  * CONTENTS
  *
  * ELEMENTS
- * Forms,,,.............Base forms styles.
+ * Forms................Base forms styles.
  * Headings.............Very minimal (i.e. only font-size information) for headings 1 through 6.
  * Links................Base link styles.
  * Page.................Set up project’s default `font-family`, `color`, `background-color`...
  * Table................Base table styles.
  */
+
 @import "elements.page";
 @import "elements.sections";
 @import "elements.headings";
